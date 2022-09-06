@@ -6,7 +6,7 @@
 * My email: beloborodova.viktoriia@gmail.com
 
 ## About me
-As an employee, I’m well-organized, detail-oriented and highly motivated to learn more.
+As an employee, I’m well-organized, detail-oriented and highly motivated to learn more. In the future I want to be a Front-End developer.
 
 ## Education
 1. Course Web-developing (HTML, CSS, JS)
