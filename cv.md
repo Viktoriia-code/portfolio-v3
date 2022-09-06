@@ -1,18 +1,20 @@
-# Виктория Белобородова
+# Viktoriia Beloborodova
 
 
-## Контакты
-[Это ссылка на мой Гитхаб](https://github.com/Viktoriia-code)
+## Contacts
+[GitHub](https://github.com/Viktoriia-code)
+My email: beloborodova.viktoriia@gmail.com
 
-## Образование
-* Курсы Web-разработки (HTML, CSS, JS)
-* Среднее специальное образование по направлению "Разработка ПО"
+## Education
+* Course Web-developing (HTML, CSS, JS)
+* Vocational qualification in Information and Communication Technology
 
-## Опыт
-* _2017-2021_ EDI-специалист в компании "КОРУС Консалтинг СНГ"
+## Experience
+* _2017-2021_ EDI-specialist at "KORUS Consulting CIS"
 
-## Технологии
+## Skills
 * HTML
 * CSS
 * JavaScript
 * React
+* GIT
