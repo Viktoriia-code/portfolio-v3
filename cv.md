@@ -23,8 +23,10 @@ As an employee, I’m well-organized, detail-oriented and highly motivated to le
 * React
 * GIT
 
-## English
-B2 (upper-intermediate)
+## Languages
+* _English_ B2 (upper-intermediate)
+* _Finnish_ B1 (intermediate)
+* _French_ A1 (Basics)
 
 ## Code example
 ```javascript
