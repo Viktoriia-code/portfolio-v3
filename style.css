@@ -1,0 +1,231 @@
+/* Start reset settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* End reset settings */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #F3F3F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.4em;
+  letter-spacing: .08em;
+  font-size: 17px;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  overflow: hidden;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  gap: 11px;
+  right: -10px;
+  position: relative;
+}
+.nav-link {
+  padding: 5px 10px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #969696;
+  font-size: 21px;
+  line-height: 80px;
+  transition: .4s ease-in-out;
+  text-transform: lowercase;
+}
+
+.nav-link:hover {
+  color: #1E1E1E;
+}
+.left-trangle {
+  clip-path: polygon(0 0, 100% 0%, 100% 82%);
+  background-color: #C0E3E7;
+  width: 40vw;
+  height: 80vh;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+}
+.right-trangle {
+  clip-path: polygon(14% 0, 33% 0, 100% 49%, 0 69%, 0 12%);
+  background-color: #E6E6E6;
+  width: 45vw;
+  height: 85vh;
+  position: absolute;
+  z-index: -1;
+}
+aside {
+  width: 290px;
+  float: left;
+  text-align: center;
+  box-shadow: -4px 7px 15px 1px rgb(0 0 0 / 20%);
+  position: fixed;
+}
+.crt-card {
+  background-color: #C0E3E7;
+  padding: 30px 20px 20px;
+}
+.crt-avatar {
+  clip-path: circle(50% at 50% 50%);
+  background-image: url("assets/img/avatar.jpg");
+  width: 170px;
+  height: 170px;
+  background-size: 130%;
+  background-position: 50%;
+  background-position-y: 40%;
+  margin: 0 auto;
+}
+.crt-info {
+  margin-top: 33px;
+}
+.crt-info h1 {
+  font-size: 28px;
+  margin-bottom: 19px;
+  line-height: 30px;
+}
+.crt-info h2 {
+  font-weight: 400;
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+.social-links-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+}
+.social-links-item {
+  text-decoration: none;
+}
+.social-links-item img {
+  width: 50px;
+  padding: 10px;
+}
+.crt-btn {
+  padding: 40px 35px;
+  background-color: white;
+}
+.btn-default {
+  color: #fff;
+  background-color: #000;
+  max-width: 320px;
+  margin: 0 auto;
+  text-transform: uppercase;
+  border-radius: 35px;
+  box-shadow: transparent 0 0 0;
+  transition: all .5s cubic-bezier(.23,1,.32,1) 0s;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  padding: 10px;
+}
+main {
+  margin-left: 330px;
+}
+section {
+  background-color: white;
+  border: 1px solid #E1E1E1;
+  padding: 40px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+section:target{scroll-margin-top:10px;}
+.section-title {
+  text-transform: uppercase;
+  font-size: 29px;
+  margin-bottom: 35px;
+  line-height: 30px;
+}
+.section-main-text {
+  font-weight: 700;
+  font-size: 19px;
+}
+hr {
+  border: 1px solid #ECECEC;
+  margin: 30px 0;
+}
+.col-1 {
+  width: 50%;
+  float: left;
+}
+section h4 {
+  font-weight: 400;
+  font-size: 21px;
+  text-transform: lowercase;
+  margin-bottom: 10px;
+}
+.info-wrapper {
+  display: flex;
+  gap: 30px;
+}
+.tbl-main {
+  text-transform: uppercase;
+  width: 130px;
+}
+.subtitle {
+  font-weight: 700;
+}
+.progress-bar {
+  margin-right: 10px;
+}
+.bullet {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border-width: 1px;
+  border-color: #C0E3E7;
+  border-style: solid;
+  display: inline-block;
+  vertical-align: middle;
+}
+.fill {
+  background-color: #C0E3E7;
+}
+.info-2 p {
+  margin-bottom: -5px;
+  margin-top: 10px;
+}
+.projects-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.project-img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.9;
+}
+.experience-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5px;
+}
+.date {
+  background-color: #C0E3E7;
+  padding: 7px 16px;
+  clip-path: polygon(0% 0%, 80% 0, 88% 50%, 80% 100%, 0% 100%);
+  height: fit-content;
+}
+.exp-title {
+  font-size: 21px;
+}
+.exp-desc {
+  line-height: 25px;
+}
+.exp-col-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
