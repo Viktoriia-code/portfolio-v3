@@ -72,6 +72,8 @@ aside {
   text-align: center;
   box-shadow: -4px 7px 15px 1px rgb(0 0 0 / 20%);
   position: fixed;
+  border: 1px solid #E1E1E1;
+
 }
 .crt-card {
   background-color: #C0E3E7;
@@ -79,7 +81,8 @@ aside {
 }
 .crt-avatar {
   clip-path: circle(50% at 50% 50%);
-  background-image: url("assets/img/avatar.jpg");
+  background-image: url("assets/img/avatar-2.png");
+  background-color: #29ba85;
   width: 170px;
   height: 170px;
   background-size: 130%;
@@ -130,6 +133,7 @@ aside {
   width: 100%;
   text-decoration: none;
   padding: 10px;
+  font-size: 15px;
 }
 main {
   margin-left: 330px;
@@ -228,4 +232,26 @@ section h4 {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+.btn-link {
+  text-transform: uppercase;
+  border-radius: 35px;
+  box-shadow: transparent 0 0 0;
+  transition: all .5s cubic-bezier(.23,1,.32,1) 0s;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 2px solid #E6E6E6;
+  color: #1E1E1E;
+  font-weight: 500;
+  display: inline;
+  transition: .4s ease-in-out;
+}
+.btn-link:hover {
+  background-color: #000000;
+  color: white;
+  border-color: #000000;
+}
+.edu-desc {
+  margin-bottom: 15px;
 }
