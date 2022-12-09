@@ -218,7 +218,7 @@ section h4 {
 }
 .date {
   background-color: #C0E3E7;
-  padding: 7px 16px;
+  padding: 7px 16px 7px 13px;
   clip-path: polygon(0% 0%, 80% 0, 88% 50%, 80% 100%, 0% 100%);
   height: fit-content;
 }
@@ -254,4 +254,39 @@ section h4 {
 }
 .edu-desc {
   margin-bottom: 15px;
+}
+.skills-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  list-style: none;
+}
+.skills-item::before {
+  content: '<';
+  transform: translateX(-100%);
+}
+.skills-item::after {
+  content: '>';
+}
+footer {
+  position: relative;
+  height: 80px;
+  padding: 10px 0 20px 0;
+  text-align: center;
+  line-height: 80px;
+}
+.copy-right {
+  font-weight: 600;
+  color: #969696;
+  font-size: 18px;
+  line-height: 80px;
+}
+.rs-school {
+  height: 80px;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.rs-school img {
+  height: 60px;
 }
