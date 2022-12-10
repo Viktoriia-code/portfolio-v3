@@ -22,6 +22,51 @@ body {
   letter-spacing: .08em;
   font-size: 17px;
 }
+#btnToTop {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  outline: none;
+  background-color: inherit;
+  color: #969696;
+  cursor: pointer;
+  padding: 5px 6px;
+  border-radius: 50%;
+  border: 2px solid #969696;
+  transition: .7s;
+}
+@keyframes show{
+  0%{
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes hide{
+  0%{
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+#btnToTop.active {
+  opacity: 1;
+  visibility: visible;
+}
+#btnToTop img{
+  width: 30px;
+  height: 30px;
+}
+#btnToTop:hover {
+  background-color: #000000; /* Add a dark-grey background on hover */
+  color: white;
+  border: 2px solid #000000;
+}
 .container {
   margin: 0 auto;
   width: 1200px;
@@ -145,7 +190,9 @@ section {
   line-height: 32px;
   margin-bottom: 20px;
 }
-section:target{scroll-margin-top:10px;}
+section:target{
+  scroll-margin-top:10px;
+}
 .section-title {
   text-transform: uppercase;
   font-size: 29px;
@@ -233,7 +280,6 @@ section h4 {
 }
 .project-caption:hover {
   opacity: 1;
-  line-height: 30px;
 }
 .project-caption:hover h2 {
   transform: translateY(0);
