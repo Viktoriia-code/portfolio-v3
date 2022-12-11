@@ -33,13 +33,18 @@ function getRandomColor()
 
 //button to scroll back to top
 const btnScrollToTop = document.getElementById("btnToTop");
+const btnMenu = document.getElementById("btnMenu");
+
 btnScrollToTop.addEventListener("click", function() { 
   window.scrollTo({ top: 0, left: 0, behavior: "smooth" }); 
 }); 
+
 window.addEventListener("scroll", () => { 
   if (window.pageYOffset > 100) { 
-    btnScrollToTop.classList.add("active"); 
+    btnScrollToTop.classList.add("active");
+    btnMenu.classList.add("active");
   } else { 
     btnScrollToTop.classList.remove("active"); 
+    btnMenu.classList.remove("active");
   } 
 });
