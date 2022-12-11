@@ -48,3 +48,25 @@ window.addEventListener("scroll", () => {
     btnMenu.classList.remove("active");
   } 
 });
+
+
+btnMenu.addEventListener("click", openSidebar);
+
+function openSidebar() {
+  document.getElementById("sidebar").classList.add("opened");
+  document.getElementById("sidebar-overlay").style.display = 'block';
+  document.getElementById("sidebar-overlay").style.opacity = 1;
+}
+
+document.getElementById("sidebar-overlay").addEventListener("click", closeSidebar);
+let sidebarLinks = document.querySelectorAll(".sidebar-link");
+
+for(i=0;i<sidebarLinks.length;i++) {
+  sidebarLinks[i].addEventListener("click", closeSidebar);
+}
+
+function closeSidebar() {
+  document.getElementById("sidebar").classList.remove("opened");
+  document.getElementById("sidebar-overlay").style.display = 'none';
+  document.getElementById("sidebar-overlay").style.opacity = 0;
+}
