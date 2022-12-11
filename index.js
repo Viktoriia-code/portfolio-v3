@@ -49,6 +49,9 @@ window.addEventListener("scroll", () => {
   } 
 });
 
+function preventDefault(e){
+  e.preventDefault();
+}
 
 btnMenu.addEventListener("click", openSidebar);
 
@@ -59,6 +62,7 @@ function openSidebar() {
 }
 
 document.getElementById("sidebar-overlay").addEventListener("click", closeSidebar);
+document.getElementById("btnClose").addEventListener("click", closeSidebar);
 let sidebarLinks = document.querySelectorAll(".sidebar-link");
 
 for(i=0;i<sidebarLinks.length;i++) {
