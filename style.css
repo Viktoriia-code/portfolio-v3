@@ -243,6 +243,9 @@ hr {
   text-transform: lowercase;
   margin-bottom: 10px;
 }
+.contact-wraper {
+  list-style: none;
+}
 .info-wrapper {
   display: flex;
   gap: 30px;
